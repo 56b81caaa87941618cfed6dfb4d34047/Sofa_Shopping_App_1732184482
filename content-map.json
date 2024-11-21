@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "SofaSelect",
+        "HERO_HEADING_TEXT": "Find Your Perfect Sofa",
+        "HERO_SUBHEADING_TEXT": "Discover comfort and style with our curated collection of sofas for every home",
+        "FOOTER_TEXT": "\u00a9 2023 SofaSelect. Comfort delivered to your doorstep."
+    }
+}
