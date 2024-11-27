@@ -14,5 +14,13 @@
         "source": "web_client",
         "content": "f2a6e59fc4f54f1c8e4.peg add the image to the hero",
         "metadata": {}
+    },
+    {
+        "id": "b225bd17-3b01-4127-b913-69a91753ce43",
+        "timestamp": "2024-11-27T17:50:02.058838Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I'm unable to directly add an existing image from the assets to your hero component. You need to navigate to the \"Components\" tab and drag and drop the hero component into the canvas.",
+        "metadata": {}
     }
 ]
