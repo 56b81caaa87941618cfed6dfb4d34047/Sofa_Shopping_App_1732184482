@@ -6,5 +6,13 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "733d8bc8-bc85-4261-8720-72de01479fd8",
+        "timestamp": "2024-11-27T17:49:58.937784Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "f2a6e59fc4f54f1c8e4.peg add the image to the hero",
+        "metadata": {}
     }
 ]
