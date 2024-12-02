@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-white">Instagram</a>
             </div>
           </div>
-
         </div>
+      </div>
       </div>
     </footer>
   );
