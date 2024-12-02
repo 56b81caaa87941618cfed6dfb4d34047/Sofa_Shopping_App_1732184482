@@ -22,5 +22,13 @@
         "source": "base_assistant",
         "content": "I'm unable to directly add an existing image from the assets to your hero component. You need to navigate to the \"Components\" tab and drag and drop the hero component into the canvas.",
         "metadata": {}
+    },
+    {
+        "id": "e1965da1-0000-4302-8619-6175583f5458",
+        "timestamp": "2024-12-02T08:38:25.981709Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add an image to the footer of a dragon eating someone",
+        "metadata": {}
     }
 ]
