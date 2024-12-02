@@ -30,5 +30,20 @@
         "source": "web_client",
         "content": "add an image to the footer of a dragon eating someone",
         "metadata": {}
+    },
+    {
+        "id": "8d8b8b5a-4f38-4dde-bcef-381204217f8b",
+        "timestamp": "2024-12-02T08:38:30.357843Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_KYdTXnczrL0OPE7AVUdpwTTG",
+            "function": {
+                "arguments": "{\"component_id\":\"Footer1732184486\",\"image_input\":\"a dragon eating someone\",\"placement_instructions\":\"add this image to the footer component\",\"acknowledgement_message\":\"Okay, I'm generating the image and adding it to the component...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
     }
 ]
