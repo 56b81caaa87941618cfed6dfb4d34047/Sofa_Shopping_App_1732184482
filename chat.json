@@ -107,5 +107,13 @@
         "source": "base_assistant",
         "content": "The image \"2a813d12798c438696b709dbf04c2008.jpeg\" is already set as the background for the footer. Is there anything else you would like to edit or add?",
         "metadata": {}
+    },
+    {
+        "id": "54ff99b0-21f3-4dc3-b40c-d7768feb0940",
+        "timestamp": "2024-12-02T08:56:54.791026Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add to the footer the image 2a813d12798c438696b709db in the center",
+        "metadata": {}
     }
 ]
