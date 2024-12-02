@@ -294,5 +294,13 @@
         "source": "base_assistant",
         "content": "The hyper-realistic image of a dragon eating someone in half has been set as the background of the footer. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "09134200-1617-466d-8dff-db94f2dba88e",
+        "timestamp": "2024-12-02T09:03:41.877509Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "get rid of the image in the center",
+        "metadata": {}
     }
 ]
