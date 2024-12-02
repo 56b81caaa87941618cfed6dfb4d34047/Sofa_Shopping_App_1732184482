@@ -416,5 +416,20 @@
         "source": "web_client",
         "content": "Generate this exact sc",
         "metadata": {}
+    },
+    {
+        "id": "73f7b4ba-38ed-40f2-868b-1b023fbcc297",
+        "timestamp": "2024-12-02T11:05:33.315738Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_whfW2dFiJD1xlVZZoyZKWqyq",
+            "function": {
+                "arguments": "{}",
+                "name": "TransferToSmartContractAssistant"
+            },
+            "type": "function"
+        }
     }
 ]
