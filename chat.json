@@ -71,5 +71,13 @@
         "source": "base_assistant",
         "content": "The image of a dragon eating someone has been generated and added to the footer component. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "6f3078c2-ad8c-427d-a258-93af28bbf69e",
+        "timestamp": "2024-12-02T08:40:05.644813Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add to the hero the image 2a813d12798c438696b709dbf04c2008.jpeg in the background",
+        "metadata": {}
     }
 ]
