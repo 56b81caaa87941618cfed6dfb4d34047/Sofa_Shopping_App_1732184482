@@ -229,5 +229,13 @@
         "source": "web_client",
         "content": "yes",
         "metadata": {}
+    },
+    {
+        "id": "9d3d590b-021b-4bc9-ab73-7916c784e983",
+        "timestamp": "2024-12-02T09:00:35.977134Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "hi?",
+        "metadata": {}
     }
 ]
