@@ -498,5 +498,13 @@
         "metadata": {
             "tool_call_id": "call_9HifHa653X4lw2WiNTxoS6Kb"
         }
+    },
+    {
+        "id": "ee19b893-da83-44be-ae2d-a36fea2e7c3b",
+        "timestamp": "2024-12-02T14:52:23.297391Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The smart contract has been generated successfully. Would you like to deploy it now?",
+        "metadata": {}
     }
 ]
