@@ -237,5 +237,13 @@
         "source": "web_client",
         "content": "hi?",
         "metadata": {}
+    },
+    {
+        "id": "e547447a-30ca-43bf-9498-ad54696a8521",
+        "timestamp": "2024-12-02T09:00:40.145543Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Please provide the specific description for the hyper-realistic image of a dragon eating someone, cut in half. This will help in generating the accurate image for the footer background.",
+        "metadata": {}
     }
 ]
