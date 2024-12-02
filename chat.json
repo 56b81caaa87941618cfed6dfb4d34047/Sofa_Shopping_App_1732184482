@@ -79,5 +79,20 @@
         "source": "web_client",
         "content": "add to the hero the image 2a813d12798c438696b709dbf04c2008.jpeg in the background",
         "metadata": {}
+    },
+    {
+        "id": "12053f43-dc3c-4814-aecc-2a17c36cf1dd",
+        "timestamp": "2024-12-02T08:40:09.710456Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_w4l2NXvqiT9tv0JjTgK7lVU1",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1732184486\",\"image_input\":\"2a813d12798c438696b709dbf04c2008.jpeg\",\"placement_instructions\":\"set this image as the background\",\"acknowledgement_message\":\"Okay, I'm adding the image to the hero background...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
     }
 ]
