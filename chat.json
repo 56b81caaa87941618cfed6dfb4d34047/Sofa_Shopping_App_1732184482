@@ -205,5 +205,13 @@
         "source": "base_assistant",
         "content": "The image of a dragon eating someone, cut in half, has been set as the background of the footer. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "dd8b1c2e-ad60-4f56-a85b-6f176f4ac491",
+        "timestamp": "2024-12-02T08:59:02.976705Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "the image should be hiper realistic",
+        "metadata": {}
     }
 ]
