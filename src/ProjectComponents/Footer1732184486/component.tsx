@@ -1,8 +1,9 @@
 import React from 'react';
+import tt from './tt.jpeg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white p-8 w-full h-full bg-cover bg-center" style={{backgroundImage: `url('https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Sofa_Shopping_App_1732184482/main/src/assets/images/12ed4b11815148dbb72ae4759ac56417.jpeg')`}}>
+    <footer className="bg-gray-800 text-white p-8 w-full h-full bg-cover bg-center" style={{backgroundImage: `url(${tt})`}}>
       <div className="container mx-auto h-full flex items-center justify-center">
         <div className="flex flex-wrap justify-between h-full">
 
