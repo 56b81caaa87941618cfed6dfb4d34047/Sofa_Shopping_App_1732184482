@@ -408,5 +408,13 @@
         "source": "base_assistant",
         "content": "The image \"tt.jpeg\" representing a world with no water has been generated. What's next on your list?",
         "metadata": {}
+    },
+    {
+        "id": "1270590d-7a7f-4186-a6f6-d0afd9f9e341",
+        "timestamp": "2024-12-02T11:05:29.357390Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Generate this exact sc",
+        "metadata": {}
     }
 ]
