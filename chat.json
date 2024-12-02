@@ -75,5 +75,13 @@
         "source": "base_assistant",
         "content": "The image \"sss.jpeg\" does not exist in the project assets. Please provide a valid image filename that is in the assets, or a description for generating a new image.",
         "metadata": {}
+    },
+    {
+        "id": "405820ac-acb9-4ddd-9e55-4b02b182b690",
+        "timestamp": "2024-12-02T08:56:30.011343Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add to the footer the image sss.jpeg in the background",
+        "metadata": {}
     }
 ]
