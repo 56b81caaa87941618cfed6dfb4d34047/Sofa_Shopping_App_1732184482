@@ -156,5 +156,13 @@
         "source": "base_assistant",
         "content": "The image has been placed in the center of the footer. Is there anything else you need?",
         "metadata": {}
+    },
+    {
+        "id": "ccbc0384-b0a2-4e6b-ab8e-72387df29a32",
+        "timestamp": "2024-12-02T08:57:34.219433Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add to the footer the image of a dragon eaing someone, cut in half in the background",
+        "metadata": {}
     }
 ]
