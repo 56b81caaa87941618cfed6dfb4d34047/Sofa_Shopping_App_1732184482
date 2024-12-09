@@ -685,5 +685,56 @@
         "source": "base_assistant",
         "content": "The image of a unicorn has been added to the footer. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "3a475714-1946-4a29-a82c-2d58f714e487",
+        "timestamp": "2024-12-09T09:12:23.601370Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "put in the header the image 3dc7906198c341298ff7b6f6517221eb",
+        "metadata": {
+            "component_id": "Header1732184486"
+        }
+    },
+    {
+        "id": "7c728bcb-fc1c-4790-b941-f887b5834054",
+        "timestamp": "2024-12-09T09:12:27.639383Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_S8lquGfXJ8UEeziJHBvLvZNv",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1732184486\",\"image_input\":\"3dc7906198c341298ff7b6f6517221eb.jpeg\",\"placement_instructions\":\"place in the header\",\"acknowledgement_message\":\"Okay, I'm adding the image to the header...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "05eb031b-ef0a-4ec6-861e-1c09e75aa3dd",
+        "timestamp": "2024-12-09T09:12:27.718926Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Okay, I'm adding the image to the header...",
+        "metadata": {}
+    },
+    {
+        "id": "0cd28142-ad47-47bc-8397-bdec4877bd8f",
+        "timestamp": "2024-12-09T09:12:34.494294Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_S8lquGfXJ8UEeziJHBvLvZNv"
+        }
+    },
+    {
+        "id": "1140bf38-419a-4915-b238-7c99c7ddc716",
+        "timestamp": "2024-12-09T09:12:37.005230Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image has been added to the header. Is there anything else you would like to do?",
+        "metadata": {}
     }
 ]
