@@ -736,5 +736,13 @@
         "source": "base_assistant",
         "content": "The image has been added to the header. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "50936223-baec-4b16-8721-f20b94ccc9c8",
+        "timestamp": "2024-12-09T12:22:19.254092Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a mining smart contract",
+        "metadata": {}
     }
 ]
