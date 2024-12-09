@@ -744,5 +744,20 @@
         "source": "web_client",
         "content": "generate a mining smart contract",
         "metadata": {}
+    },
+    {
+        "id": "c2e368e1-f617-46c8-815f-49846c5dc0c2",
+        "timestamp": "2024-12-09T12:22:22.007831Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_YpyIHrcsgcuZ697FZMcWb6kr",
+            "function": {
+                "arguments": "{}",
+                "name": "TransferToSmartContractAssistant"
+            },
+            "type": "function"
+        }
     }
 ]
