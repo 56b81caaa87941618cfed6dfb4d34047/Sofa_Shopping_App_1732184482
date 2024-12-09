@@ -685,5 +685,15 @@
         "source": "base_assistant",
         "content": "The image of a unicorn has been added to the footer. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "3a475714-1946-4a29-a82c-2d58f714e487",
+        "timestamp": "2024-12-09T09:12:23.601370Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "put in the header the image 3dc7906198c341298ff7b6f6517221eb",
+        "metadata": {
+            "component_id": "Header1732184486"
+        }
     }
 ]
