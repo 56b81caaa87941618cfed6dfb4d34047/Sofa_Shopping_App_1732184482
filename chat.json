@@ -634,5 +634,56 @@
         "source": "tool:edit_smart_contract_frontend_component",
         "content": "Okay, I'm applying the changes to the smart contract...",
         "metadata": {}
+    },
+    {
+        "id": "09902dd9-912e-4c4e-a010-cba397984d1f",
+        "timestamp": "2024-12-09T09:10:58.919837Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "add an image of a unicorn",
+        "metadata": {
+            "component_id": "Footer1732184486"
+        }
+    },
+    {
+        "id": "22499e74-c077-42dc-9370-c415fb1f2104",
+        "timestamp": "2024-12-09T09:11:06.720695Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_kU0bJjjhPtZMPVSiVTbgFzfh",
+            "function": {
+                "arguments": "{\"component_id\": \"Footer1732184486\", \"image_input\": \"an image of a unicorn\", \"placement_instructions\": \"add to the footer\", \"acknowledgement_message\": \"Okay, I'm generating the image of a unicorn and adding it to the footer...\"}",
+                "name": "GenerateImageAndPlaceInComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "e3a2ccce-16a0-4387-bcfb-dc5bc1aef6cf",
+        "timestamp": "2024-12-09T09:11:06.799218Z",
+        "role": "assistant",
+        "source": "tool:GenerateImageAndPlaceInComponent",
+        "content": "Okay, I'm generating the image of a unicorn and adding it to the footer...",
+        "metadata": {}
+    },
+    {
+        "id": "4984bc43-34dc-4ffb-887e-bb43610edd17",
+        "timestamp": "2024-12-09T09:11:24.963603Z",
+        "role": "tool_result",
+        "source": "GenerateImageAndPlaceInComponent",
+        "content": "Success",
+        "metadata": {
+            "tool_call_id": "call_kU0bJjjhPtZMPVSiVTbgFzfh"
+        }
+    },
+    {
+        "id": "4d35ea9c-8ca2-4898-9cb2-518a508a573f",
+        "timestamp": "2024-12-09T09:11:27.754604Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The image of a unicorn has been added to the footer. What would you like to do next?",
+        "metadata": {}
     }
 ]
