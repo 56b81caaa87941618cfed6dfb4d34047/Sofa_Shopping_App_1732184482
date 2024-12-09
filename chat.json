@@ -736,5 +736,46 @@
         "source": "base_assistant",
         "content": "The image has been added to the header. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "50936223-baec-4b16-8721-f20b94ccc9c8",
+        "timestamp": "2024-12-09T12:22:19.254092Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a mining smart contract",
+        "metadata": {}
+    },
+    {
+        "id": "c2e368e1-f617-46c8-815f-49846c5dc0c2",
+        "timestamp": "2024-12-09T12:22:22.007831Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_YpyIHrcsgcuZ697FZMcWb6kr",
+            "function": {
+                "arguments": "{}",
+                "name": "TransferToSmartContractAssistant"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "271c1c28-3c5c-4b88-a914-54b8f31b74c0",
+        "timestamp": "2024-12-09T12:22:22.084969Z",
+        "role": "tool_result",
+        "source": "TransferToSmartContractAssistant",
+        "content": "Conversation switched to smart_contract_assistant. Adopt the persona of smart_contract_assistant immediately.",
+        "metadata": {
+            "tool_call_id": "call_YpyIHrcsgcuZ697FZMcWb6kr"
+        }
+    },
+    {
+        "id": "a85d5da7-a36c-4648-95dd-54c85d49a88f",
+        "timestamp": "2024-12-09T12:22:27.010218Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "Please provide the specific requirements and details you want for the mining smart contract, such as functionalities and desired features. This will help in generating an accurate smart contract for your needs.",
+        "metadata": {}
     }
 ]
