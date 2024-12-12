@@ -826,5 +826,21 @@
         "source": "smart_contract_assistant",
         "content": "The staking smart contract is ready. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "6b4e96b0-3029-4a63-bbeb-850a6de6c713",
+        "timestamp": "2024-12-12T09:53:34.705292Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a staking smart contract",
+        "metadata": {}
+    },
+    {
+        "id": "c25ddc77-2eea-4e04-9376-4f0d58d007c1",
+        "timestamp": "2024-12-12T09:53:37.370624Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The staking smart contract has already been generated. Would you like to deploy it now, or is there anything else you would like to modify or add?",
+        "metadata": {}
     }
 ]
