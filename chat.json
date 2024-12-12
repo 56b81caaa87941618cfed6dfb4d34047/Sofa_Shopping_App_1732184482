@@ -777,5 +777,13 @@
         "source": "smart_contract_assistant",
         "content": "Please provide the specific requirements and details you want for the mining smart contract, such as functionalities and desired features. This will help in generating an accurate smart contract for your needs.",
         "metadata": {}
+    },
+    {
+        "id": "bc7ebacf-9a53-41cd-a482-0d999540b360",
+        "timestamp": "2024-12-12T09:49:16.668525Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a staking smart contract",
+        "metadata": {}
     }
 ]
