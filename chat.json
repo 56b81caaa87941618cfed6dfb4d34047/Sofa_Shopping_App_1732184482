@@ -948,5 +948,20 @@
         "source": "web_client",
         "content": "generate a sotrage sc",
         "metadata": {}
+    },
+    {
+        "id": "6fca5100-7df4-4df7-9859-903fa5722cba",
+        "timestamp": "2024-12-12T10:00:45.296905Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_BZ9etNs3kD4t6gAtF7JJzTeg",
+            "function": {
+                "arguments": "{\"contract_id\":\"StorageContract\",\"description\":\"A smart contract that provides basic storage functionalities. Users should be able to store, update, and retrieve a string value. Additionally, emit events whenever the value is updated.\",\"acknowledgement_message\":\"Okay, I'm generating the storage smart contract...\"}",
+                "name": "WriteSmartContract"
+            },
+            "type": "function"
+        }
     }
 ]
