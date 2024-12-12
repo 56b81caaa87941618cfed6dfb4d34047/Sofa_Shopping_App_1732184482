@@ -899,5 +899,20 @@
         "source": "web_client",
         "content": "yes to holesky",
         "metadata": {}
+    },
+    {
+        "id": "a025f729-ca68-4547-b9c7-abb778fff88e",
+        "timestamp": "2024-12-12T09:58:30.731205Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_BFT1rQbR2I2ordAozOSBVkHs",
+            "function": {
+                "arguments": "{\"contract_id\":\"MiningContract\",\"frontend_description\":\"A frontend component to interact with the MiningContract, allowing users to start mining, stop mining, check rewards, and claim rewards.\",\"acknowledgement_message\":\"Okay, I'm deploying the contract to the HOLESKY network...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
     }
 ]
