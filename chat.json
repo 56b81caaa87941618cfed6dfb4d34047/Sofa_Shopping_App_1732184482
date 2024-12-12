@@ -891,5 +891,54 @@
         "source": "smart_contract_assistant",
         "content": "The mining smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "121db86b-aa3a-4ad6-8c1d-6e857407129b",
+        "timestamp": "2024-12-12T09:58:27.438256Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "yes to holesky",
+        "metadata": {}
+    },
+    {
+        "id": "a025f729-ca68-4547-b9c7-abb778fff88e",
+        "timestamp": "2024-12-12T09:58:30.731205Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_BFT1rQbR2I2ordAozOSBVkHs",
+            "function": {
+                "arguments": "{\"contract_id\":\"MiningContract\",\"frontend_description\":\"A frontend component to interact with the MiningContract, allowing users to start mining, stop mining, check rewards, and claim rewards.\",\"acknowledgement_message\":\"Okay, I'm deploying the contract to the HOLESKY network...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "4ed45adb-6bc0-4746-9f17-60745a297c4a",
+        "timestamp": "2024-12-12T09:58:30.800589Z",
+        "role": "assistant",
+        "source": "tool:DeployAndGenerateFrontend",
+        "content": "Okay, I'm deploying the contract to the HOLESKY network...",
+        "metadata": {}
+    },
+    {
+        "id": "53441474-fa4a-4bad-936d-3c01d5ec7178",
+        "timestamp": "2024-12-12T09:59:03.351926Z",
+        "role": "tool_result",
+        "source": "DeployAndGenerateFrontend",
+        "content": "Success: deployed contract to 0xd76367d67DcD9B45fE23A7Ac1f82307Bb6FDAa35 in Holesky",
+        "metadata": {
+            "tool_call_id": "call_BFT1rQbR2I2ordAozOSBVkHs"
+        }
+    },
+    {
+        "id": "6730aa49-c1a9-4718-beee-9ba3fc82cfde",
+        "timestamp": "2024-12-12T09:59:05.364563Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The mining contract has been successfully deployed to the HOLESKY network. Is there anything else you would like to do?",
+        "metadata": {}
     }
 ]
