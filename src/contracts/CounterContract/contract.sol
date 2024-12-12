@@ -2,31 +2,32 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
+import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract CounterContract {
+contract CounterContract is Ownable {
     using SafeMath for uint256;
 
-    uint256 private _count;
+    uint256 private _tableCount;
 
-    event CounterIncremented(uint256 newValue);
-    event CounterDecremented(uint256 newValue);
+    event CountUpdated(uint256 newCount);
 
-    constructor() {
-        _count = 0;
+    constructor() Ownable() {
+        _tableCount = 0;
     }
 
-    function increment() public {
-        _count = _count.add(1);
-        emit CounterIncremented(_count);
+    function incrementCount() public {
+        _tableCount = _tableCount.add(1);
+        emit CountUpdated(_tableCount);
     }
 
-    function decrement() public {
-        _count = _count.sub(1);
-        emit CounterDecremented(_count);
+    function decrementCount() public {
+        require(_tableCount > 0, "Count cannot be negative");
+        _tableCount = _tableCount.sub(1);
+        emit CountUpdated(_tableCount);
     }
 
     function getCount() public view returns (uint256) {
-        return _count;
+        return _tableCount;
     }
 }
