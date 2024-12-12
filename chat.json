@@ -850,5 +850,20 @@
         "source": "web_client",
         "content": "a mining sc",
         "metadata": {}
+    },
+    {
+        "id": "0a4973b1-a1ef-48bf-b042-9ca8a92f379f",
+        "timestamp": "2024-12-12T09:57:08.590707Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_AK8MaT5sGf0VySvm5YgpHVvx",
+            "function": {
+                "arguments": "{\"contract_id\":\"MiningContract\",\"description\":\"A smart contract that allows users to mine tokens by performing a specified action. Users should be able to start mining, stop mining, and check their mining rewards. The contract should track the amount of time users spend mining and reward them accordingly.\",\"acknowledgement_message\":\"Okay, I'm generating the mining smart contract...\"}",
+                "name": "WriteSmartContract"
+            },
+            "type": "function"
+        }
     }
 ]
