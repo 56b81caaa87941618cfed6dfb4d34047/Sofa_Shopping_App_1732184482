@@ -1537,5 +1537,13 @@
         "source": "web_client",
         "content": "I want to generate a sc frontend, what chains are available",
         "metadata": {}
+    },
+    {
+        "id": "59d46be7-34fd-4c0a-8551-18d58a15706a",
+        "timestamp": "2024-12-12T14:43:16.208096Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The available blockchain networks you can deploy to are:\n\n1. Ethereum (Mainnet)\n2. Polygon\n3. Holesky (Ethereum Testnet)\n4. Sepolia (Ethereum Testnet)\n5. zkSync Era\n\nWhich chain would you like to use?",
+        "metadata": {}
     }
 ]
