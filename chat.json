@@ -883,5 +883,13 @@
         "metadata": {
             "tool_call_id": "call_AK8MaT5sGf0VySvm5YgpHVvx"
         }
+    },
+    {
+        "id": "1d9b54bf-ae68-4746-a67b-13aaa18c5f27",
+        "timestamp": "2024-12-12T09:57:53.964549Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The mining smart contract has been generated. Would you like to deploy it now?",
+        "metadata": {}
     }
 ]
