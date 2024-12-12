@@ -1189,5 +1189,15 @@
         "source": "smart_contract_assistant",
         "content": "The minting NFT smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "bd273c1a-2aa0-4f52-8c86-80af6c68bfc5",
+        "timestamp": "2024-12-12T12:46:29.734379Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "create a table counter smart contract",
+        "metadata": {
+            "component_id": "Hero1732184486"
+        }
     }
 ]
