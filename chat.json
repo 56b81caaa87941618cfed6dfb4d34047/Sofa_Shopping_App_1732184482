@@ -989,5 +989,13 @@
         "source": "smart_contract_assistant",
         "content": "The storage smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "a08bebda-b11d-4499-95d7-575eba40301a",
+        "timestamp": "2024-12-12T10:39:39.861309Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a counter smart contract",
+        "metadata": {}
     }
 ]
