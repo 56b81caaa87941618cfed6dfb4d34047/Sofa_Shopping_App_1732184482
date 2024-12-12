@@ -1327,5 +1327,15 @@
         "source": "smart_contract_assistant",
         "content": "If you require further assistance, please provide additional details or specify the changes you need.",
         "metadata": {}
+    },
+    {
+        "id": "22dba27e-4f9f-4e8b-a82e-8dc028f7efab",
+        "timestamp": "2024-12-12T12:49:18.116940Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "frontend for that samrt contract on the hedaer",
+        "metadata": {
+            "component_id": "Header1732184486"
+        }
     }
 ]
