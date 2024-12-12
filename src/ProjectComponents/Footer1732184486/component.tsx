@@ -1,5 +1,5 @@
 import React from 'react';
-import tt from './tt.jpeg';
+import tt from '../assets/images/tt.jpeg';
 
 const Footer: React.FC = () => {
   return (
