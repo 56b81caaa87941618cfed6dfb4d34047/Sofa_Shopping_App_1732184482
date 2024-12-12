@@ -1529,5 +1529,13 @@
         "source": "smart_contract_assistant",
         "content": "The random smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "fa0f6405-bdc4-4ace-be7b-92eab22f65dc",
+        "timestamp": "2024-12-12T14:43:08.904017Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I want to generate a sc frontend, what chains are available",
+        "metadata": {}
     }
 ]
