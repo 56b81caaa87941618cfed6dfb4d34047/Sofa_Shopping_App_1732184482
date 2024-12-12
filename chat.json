@@ -1038,5 +1038,15 @@
         "source": "smart_contract_assistant",
         "content": "The counter smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "a6c59221-0370-4d82-bc80-eb96c611609d",
+        "timestamp": "2024-12-12T12:23:45.715406Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "try again",
+        "metadata": {
+            "component_id": "Hero1732184486"
+        }
     }
 ]
