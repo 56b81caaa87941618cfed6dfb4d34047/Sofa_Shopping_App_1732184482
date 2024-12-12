@@ -1545,5 +1545,21 @@
         "source": "smart_contract_assistant",
         "content": "The available blockchain networks you can deploy to are:\n\n1. Ethereum (Mainnet)\n2. Polygon\n3. Holesky (Ethereum Testnet)\n4. Sepolia (Ethereum Testnet)\n5. zkSync Era\n\nWhich chain would you like to use?",
         "metadata": {}
+    },
+    {
+        "id": "bc74cc1d-4027-4acd-804a-5d6935ca423f",
+        "timestamp": "2024-12-12T14:43:43.772469Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "better said, I want to deploy a given sc, which chains are abvailable",
+        "metadata": {}
+    },
+    {
+        "id": "ae0763ac-26bd-478a-9647-b3c14dd86e23",
+        "timestamp": "2024-12-12T14:43:47.915797Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The available blockchain networks you can deploy the smart contract to are:\n\n1. Ethereum (Mainnet)\n2. Polygon\n3. Holesky (Ethereum Testnet)\n4. Sepolia (Ethereum Testnet)\n5. zkSync Era\n\nPlease let me know which chain you'd like to use for deployment.",
+        "metadata": {}
     }
 ]
