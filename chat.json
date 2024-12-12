@@ -1140,5 +1140,13 @@
         "source": "smart_contract_assistant",
         "content": "The counter smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "c25f72f6-b272-4b23-92a8-1a2f1f67399e",
+        "timestamp": "2024-12-12T12:38:25.804442Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a minting nft smart contract",
+        "metadata": {}
     }
 ]
