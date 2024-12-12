@@ -891,5 +891,13 @@
         "source": "smart_contract_assistant",
         "content": "The mining smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "121db86b-aa3a-4ad6-8c1d-6e857407129b",
+        "timestamp": "2024-12-12T09:58:27.438256Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "yes to holesky",
+        "metadata": {}
     }
 ]
