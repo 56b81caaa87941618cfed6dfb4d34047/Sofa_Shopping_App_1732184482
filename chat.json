@@ -1478,5 +1478,15 @@
         "source": "smart_contract_assistant",
         "content": "The random number smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "5137e931-ff18-4016-a379-3ae3544e2516",
+        "timestamp": "2024-12-12T14:02:47.265089Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a random sc",
+        "metadata": {
+            "component_id": "Hero1732184486"
+        }
     }
 ]
