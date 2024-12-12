@@ -785,5 +785,20 @@
         "source": "web_client",
         "content": "generate a staking smart contract",
         "metadata": {}
+    },
+    {
+        "id": "8f800dd3-e09d-4a08-aa6a-726b443a69ee",
+        "timestamp": "2024-12-12T09:49:22.804505Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_ReELiu7RWn5ELPgji1K8CrP3",
+            "function": {
+                "arguments": "{\"contract_id\":\"StakingContract\",\"description\":\"A smart contract that allows users to stake their tokens to earn rewards. The contract should allow users to deposit tokens, keep track of their staked amounts, accumulate rewards over time, and allow users to withdraw their tokens along with earned rewards.\",\"acknowledgement_message\":\"Okay, I'm generating the staking smart contract...\"}",
+                "name": "WriteSmartContract"
+            },
+            "type": "function"
+        }
     }
 ]
