@@ -1429,5 +1429,13 @@
         "source": "smart_contract_assistant",
         "content": "The CounterContract has been successfully deployed to the HOLESKY network as well. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "90f1e9b5-8bea-4cf7-a221-657c65e1aad6",
+        "timestamp": "2024-12-12T13:57:34.302533Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "generate a smart contract random",
+        "metadata": {}
     }
 ]
