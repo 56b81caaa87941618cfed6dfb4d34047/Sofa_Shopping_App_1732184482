@@ -1240,5 +1240,15 @@
         "source": "smart_contract_assistant",
         "content": "The table counter smart contract has been generated. Would you like to deploy it now?",
         "metadata": {}
+    },
+    {
+        "id": "a7100d55-82f4-41e1-b1eb-dd3ad3467f73",
+        "timestamp": "2024-12-12T12:47:24.255866Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "yes to sepolia",
+        "metadata": {
+            "component_id": "Hero1732184486"
+        }
     }
 ]
