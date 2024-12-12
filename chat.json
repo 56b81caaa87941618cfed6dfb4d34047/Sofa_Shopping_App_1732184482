@@ -842,5 +842,13 @@
         "source": "smart_contract_assistant",
         "content": "The staking smart contract has already been generated. Would you like to deploy it now, or is there anything else you would like to modify or add?",
         "metadata": {}
+    },
+    {
+        "id": "c48471dd-36bf-4581-9de0-3dfbf3e0f320",
+        "timestamp": "2024-12-12T09:57:05.282610Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "a mining sc",
+        "metadata": {}
     }
 ]
