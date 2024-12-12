@@ -981,5 +981,13 @@
         "metadata": {
             "tool_call_id": "call_BZ9etNs3kD4t6gAtF7JJzTeg"
         }
+    },
+    {
+        "id": "9a95e2ce-246f-4f89-a55e-01e7a575497a",
+        "timestamp": "2024-12-12T10:01:05.701071Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The storage smart contract has been generated. Would you like to deploy it now?",
+        "metadata": {}
     }
 ]
