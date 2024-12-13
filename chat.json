@@ -1633,5 +1633,20 @@
         "source": "web_client",
         "content": "deploy it on holesky",
         "metadata": {}
+    },
+    {
+        "id": "d8c66243-9c79-4107-8e07-085cf16c4586",
+        "timestamp": "2024-12-13T09:20:02.801706Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_FFN8fVFbuR2ihqv6tcoYShLp",
+            "function": {
+                "arguments": "{\"contract_id\":\"RandomContract\",\"chain\":\"HOLESKY\",\"frontend_description\":\"A frontend component to interact with the RandomContract, allowing users to generate and retrieve random numbers.\",\"acknowledgement_message\":\"Okay, I'm deploying the contract to the HOLESKY network...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
     }
 ]
