@@ -1593,5 +1593,21 @@
         "source": "smart_contract_assistant",
         "content": "You can create a frontend for a smart contract on the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n3. ETHEREUM (Mainnet)\n4. POLYGON\n5. ZKSYNC ERA\n\nWould you like to create a frontend for a smart contract on any of these networks? If so, please specify which one.",
         "metadata": {}
+    },
+    {
+        "id": "aa6eb06f-899e-40f1-a950-1ffcc21dfd70",
+        "timestamp": "2024-12-13T09:05:47.618286Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "one again what are the networks i can deoly a smart contract to?",
+        "metadata": {}
+    },
+    {
+        "id": "f7e0fbbb-790b-41a4-a5ac-2a3548fc4980",
+        "timestamp": "2024-12-13T09:05:50.949991Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "You can deploy a smart contract to the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n\nWhich network would you like to deploy your smart contract to?",
+        "metadata": {}
     }
 ]
