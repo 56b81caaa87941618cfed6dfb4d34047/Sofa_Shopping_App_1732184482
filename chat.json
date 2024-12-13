@@ -1561,5 +1561,21 @@
         "source": "smart_contract_assistant",
         "content": "The available blockchain networks you can deploy the smart contract to are:\n\n1. Ethereum (Mainnet)\n2. Polygon\n3. Holesky (Ethereum Testnet)\n4. Sepolia (Ethereum Testnet)\n5. zkSync Era\n\nPlease let me know which chain you'd like to use for deployment.",
         "metadata": {}
+    },
+    {
+        "id": "4561f75d-5e83-4593-982d-90a95cf0ae25",
+        "timestamp": "2024-12-13T09:04:12.593730Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what are the networks i can deoly a smart contract to?",
+        "metadata": {}
+    },
+    {
+        "id": "c0b3f84f-44e3-4e27-ac7a-6d027e2fcab1",
+        "timestamp": "2024-12-13T09:04:19.759778Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "You can deploy a smart contract to the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n\nWhich network would you like to deploy your smart contract to?",
+        "metadata": {}
     }
 ]
