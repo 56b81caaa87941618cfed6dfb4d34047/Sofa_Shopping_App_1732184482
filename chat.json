@@ -1625,5 +1625,54 @@
         "source": "smart_contract_assistant",
         "content": "You can deploy a smart contract to the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n\nWhich network would you like to deploy your smart contract to?",
         "metadata": {}
+    },
+    {
+        "id": "c3730c86-7d87-4a79-bcbc-72671189dda0",
+        "timestamp": "2024-12-13T09:19:58.807201Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "deploy it on holesky",
+        "metadata": {}
+    },
+    {
+        "id": "d8c66243-9c79-4107-8e07-085cf16c4586",
+        "timestamp": "2024-12-13T09:20:02.801706Z",
+        "role": "tool_call",
+        "source": "smart_contract_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_FFN8fVFbuR2ihqv6tcoYShLp",
+            "function": {
+                "arguments": "{\"contract_id\":\"RandomContract\",\"chain\":\"HOLESKY\",\"frontend_description\":\"A frontend component to interact with the RandomContract, allowing users to generate and retrieve random numbers.\",\"acknowledgement_message\":\"Okay, I'm deploying the contract to the HOLESKY network...\"}",
+                "name": "DeployAndGenerateFrontend"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "dc31ae19-61d7-42b0-be12-f979e3605db1",
+        "timestamp": "2024-12-13T09:20:02.867533Z",
+        "role": "assistant",
+        "source": "tool:DeployAndGenerateFrontend",
+        "content": "Okay, I'm deploying the contract to the HOLESKY network...",
+        "metadata": {}
+    },
+    {
+        "id": "ab53df59-91c8-42a0-b067-c3cf14564dfb",
+        "timestamp": "2024-12-13T09:20:29.430089Z",
+        "role": "tool_result",
+        "source": "DeployAndGenerateFrontend",
+        "content": "Success: deployed contract to 0xc96051EeC5d202Bc29504528A1d6Ea1ED9Fe1B4b on Holesky (Ethereum testnet)",
+        "metadata": {
+            "tool_call_id": "call_FFN8fVFbuR2ihqv6tcoYShLp"
+        }
+    },
+    {
+        "id": "caa8922d-0811-4110-b281-07a0aee6c9cf",
+        "timestamp": "2024-12-13T09:20:31.962573Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "The random smart contract has been successfully deployed to the HOLESKY network. Is there anything else you would like to do?",
+        "metadata": {}
     }
 ]
