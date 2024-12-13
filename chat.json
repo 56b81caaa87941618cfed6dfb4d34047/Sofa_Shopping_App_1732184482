@@ -1577,5 +1577,13 @@
         "source": "smart_contract_assistant",
         "content": "You can deploy a smart contract to the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n\nWhich network would you like to deploy your smart contract to?",
         "metadata": {}
+    },
+    {
+        "id": "cc946521-9453-418d-8108-09acb442bf75",
+        "timestamp": "2024-12-13T09:04:48.703964Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "and which ones can I create a frontend from?",
+        "metadata": {}
     }
 ]
