@@ -1585,5 +1585,13 @@
         "source": "web_client",
         "content": "and which ones can I create a frontend from?",
         "metadata": {}
+    },
+    {
+        "id": "0737efbb-88fb-474b-bc2a-2a025fea1477",
+        "timestamp": "2024-12-13T09:04:54.836661Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "You can create a frontend for a smart contract on the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n3. ETHEREUM (Mainnet)\n4. POLYGON\n5. ZKSYNC ERA\n\nWould you like to create a frontend for a smart contract on any of these networks? If so, please specify which one.",
+        "metadata": {}
     }
 ]
