@@ -1617,5 +1617,13 @@
         "source": "web_client",
         "content": "tell me the available chains to deploy a smart contract",
         "metadata": {}
+    },
+    {
+        "id": "d35e9098-d7c7-4f0e-b8b5-6b754b10e08d",
+        "timestamp": "2024-12-13T09:18:40.694626Z",
+        "role": "assistant",
+        "source": "smart_contract_assistant",
+        "content": "You can deploy a smart contract to the following networks:\n\n1. HOLESKY (Ethereum Testnet)\n2. SEPOLIA (Ethereum Testnet)\n\nWhich network would you like to deploy your smart contract to?",
+        "metadata": {}
     }
 ]
