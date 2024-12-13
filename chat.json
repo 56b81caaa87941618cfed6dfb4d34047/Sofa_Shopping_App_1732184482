@@ -1674,5 +1674,13 @@
         "source": "smart_contract_assistant",
         "content": "The random smart contract has been successfully deployed to the HOLESKY network. Is there anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "7c5d743e-1b81-408f-9ed6-f00e190e8fc1",
+        "timestamp": "2024-12-13T09:20:35.644083Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "now develop a frontend for it",
+        "metadata": {}
     }
 ]
